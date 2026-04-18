@@ -83,11 +83,6 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -
 - **Mean Absolute Error (MAE):** ~300 kW (varies by generation)
 - The model successfully learned that energy spikes dramatically between 8 AM and 6 PM on weekdays, while staying flat on weekends.
 
-### Screenshots
-*(Add your screenshots here via the `images/` folder)*
-![Actual vs Predicted](outputs/actual_vs_predicted.png)
-*(Note: Upload these to your images/ folder and adjust the link)*
-
 ---
 
 This project was built to demonstrate proficiency in Data Engineering, Machine Learning Pipeline Creation, and API Deployment.
